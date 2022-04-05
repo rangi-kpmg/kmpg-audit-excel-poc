@@ -1,0 +1,33 @@
+  
+<main class="ms-welcome__main">
+  <div style="width:100%; background-color:#2a8dd4;">  <h4 class="ms-welcome__main" > Analysis Process</h4></div>   
+    <br/> 
+    <div style="width: 100%;">
+        <div id="div1" class="padding" style="border: solid; padding:15px;">         
+            <input type="button"  cclass="ms-Button" id="create-table" value="Analysis Data" (click)="CreateTable()">
+        </div>
+        <br><br>
+        <div id="div2" class="padding" style="border: solid; padding:15px;"> 
+            
+            Fund: <select name="fund" id="fund">
+                <option value="Fund A" selected="selected">Fund A</option>
+                <option value="Fund B" >Fund B</option>
+                <option value="Fund C">Fund C</option>
+            </select>
+            &nbsp;
+            Routine: <select name="routine" id="routine">
+                <option value="Routine 1" selected="selected">Routine 1</option>
+                <option value="Routine 2" >Routine 2</option>
+                <option value="Routine 3">Routine 3</option>
+            </select>
+            <br />
+            <br />
+                 <input type="button"  class="ms-Button" id="dynamic-table" value="Dynamically-Analysis Data" (click)="DynaminCreateTable()">
+        </div>
+    </div>    
+     
+</main>
+<br>
+<div id="content-power" style="background-color:#2a8dd4;">
+    Powered by KPMG
+</div>
